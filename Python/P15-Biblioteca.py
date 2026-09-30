@@ -26,8 +26,9 @@ class Biblioteca:
 
 mibib = Biblioteca()
 
-PJ = Libro("Percy Jackson y los dioses del olimpo I: el ladron del rayo", "Rick R. Riordan", 123123123)
-
-mibib.agregar_libro(PJ)
+PJ1 = Libro("Percy Jackson y los dioses del olimpo I: el ladron del rayo", "Rick R. Riordan", 123123123)
+PJ2 = Libro("Percy Jackson y los dioses del olimpo II: el mar de monstruos", "Rick R. Riordan", 123123124)
+mibib.agregar_libro(PJ1)
+mibib.agregar_libro(PJ2)
 mibib.buscar("Percy")
 
