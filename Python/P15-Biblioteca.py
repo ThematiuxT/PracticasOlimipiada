@@ -24,6 +24,9 @@ class Biblioteca:
             if titulo.lower() in libro.titulo.lower():
                 libro.print()
 
+    def tomar(self, libro:Libro):
+        libro.disponible = False
+
 mibib = Biblioteca()
 
 PJ1 = Libro("Percy Jackson y los dioses del olimpo I: el ladron del rayo", "Rick R. Riordan", 123123123)
